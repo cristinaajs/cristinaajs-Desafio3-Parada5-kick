@@ -1,0 +1,144 @@
+body{
+    font-family: Helvetica;
+    background-color: #202422;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    text-align: center;
+}
+
+.imagem-contato{
+    width: 100%;
+    max-width: 400px;
+    margin:20px 10px;
+    background-color: #6a321e;
+    padding:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    flex-basis: 40%;
+}
+
+.quadro1{
+    background-color: #b4997b;
+    margin: 20px 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.quadro{ 
+    background-color: #b4997b;
+    margin:20px 10px;
+    padding:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    flex-basis: 40%;
+}
+
+.quadro-educacao{
+    background-color: #b4997b;
+    margin:20px 10px;
+    padding:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    flex-basis: 40%;
+    text-align: justify;
+}
+
+.quadro-experiencia{
+    background-color: #b4997b;
+    margin:20px 10px;
+    padding:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    flex-basis: 40%;
+    text-align: justify;  
+}
+
+.quadro-skills{
+    background-color: #b4997b;
+    margin:20px 10px;
+    padding:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    flex-basis: 40%;
+    text-align: justify;
+}
+
+.quadro-informacoes{
+    background-color: #b4997b;
+    margin:20px 10px;
+    padding:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    flex-basis: 40%; 
+}
+
+h1{
+    font-size: 80px;
+    color:#6a321e;
+    padding: 20px;
+    margin:20px 10px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-size:25px;
+}
+
+h2 {
+    font-size: 40px;
+    color: #3b1c13;
+    padding: 20px;
+    margin:20px 10px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    color: #3b1c13;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.quadro, .quadro-educacao, .quadro-experiencia, .quadro-informacoes, .quadro-skills{
+    flex-grow:10;
+    min-height: 300px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#b4997b;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
